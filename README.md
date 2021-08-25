@@ -1,70 +1,106 @@
-# Getting Started with Create React App
+# Project Name
+> [Bad Bank MERN Project - Click here to view!](https://danielwestfall.github.io/Bad_bank_MERN_stack/) 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Table of contents
+---
+* [General info](#general-info)
+* [Links](#links)
+* [Screenshots](#screenshots)
+* [Technologies](#technologies)
+* [Setup](#setup)
+* [Features](#features)
+* [Status](#status)
+* [Inspiration](#inspiration)
+* [Contact](#contact)
 
-## Available Scripts
+## General info
+---
+This project was designed to teach us the following about React:
+* Implement a full stack MERN application
+* Manage user's data using CRUD operations
+* Build the backend using MongoDb, NodeJS, and ExpressJS
+* Build the frontend using ReactJS, and styled with Bootstrap 
+* Implement authentication with Firebase and authorize users to only view information relevent to their credentials
 
-In the project directory, you can run:
 
-### `npm start`
+## Links
+---
+* [Open the Project](https://danielwestfall.github.io/Bad_bank_MERN_stack/)
+* [View it on GitHub](https://github.com/danielwestfall/bad_bank_mern_stack)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Screenshots
+---
+![Example screenshot](badbank.png)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Technologies
+---
+* HTML
+* CSS
+* JavaScript
+* ReactJS (create-react-app)
+* ExpressJS
+* NodeJS
+* MongoDb
+* Firebase
+* Bootstrap
 
-### `npm test`
+## Setup
+---
+Feel free to [check out the project here!](https://danielwestfall.github.io/Bad_bank_MERN_stack/).
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## Features
+---
+List of features ready:
+*      Create account and viewing all user data from database
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To-do list:
+* 	  User login
+*	  User authentication/authorization
+*	  Styling upgrade
+*	  Deposit/Withdraw/Balance implementation
+*      Accessability considerations
+*      Code refactoring and cleanup :)
+*	  More...
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Status
+---
+Project is: _in progress_
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Project was class challenge to build a full stack MERN bank application. Currently called bad bank due to lack of security features. 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Inspiration
+---
+Project created by MIT xPro Full Stack Web Development Course. Completed and modified by Daniel Westfall.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+## Contact
+---
+[Daniel Westfall](mailto:DWWestfall@Protonmail.com).  Check out [my Portfolio](https://danielwestfall.github.io/ "my Portfolio")
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## License
+---
+MIT License
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Copyright (c) 2021 Daniel Westfall
 
-### Code Splitting
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
