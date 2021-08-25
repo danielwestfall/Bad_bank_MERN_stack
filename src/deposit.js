@@ -6,7 +6,6 @@ import Currency from "./components/currency";
 import Clickbox from "./components/button";
 
 const Deposit = () => {
-	const ctx = React.useContext(UserContext);
 	const [show, setShow] = React.useState(true);
 	const [status, setStatus] = React.useState("");
 	const [deposit, setDeposit] = React.useState("");
@@ -40,11 +39,14 @@ const Deposit = () => {
 			clearForm();
 			return;
 		}
-		ctx.users[0].balance =
-			parseFloat(ctx.users[0].balance) + parseFloat(deposit);
-		ctx.users[0].balance =
-			Math.round((ctx.users[0].balance + Number.EPSILON) * 100) / 100;
-		console.log(ctx.users);
+
+		const url = `/account/create/${email}/${amount}`;
+		(async () => {
+			var res = await fetch(url);
+			var data = await res.json();
+			console.log(data);
+		})();
+
 		setShow(false);
 	}
 
