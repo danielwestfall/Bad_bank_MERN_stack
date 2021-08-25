@@ -1,7 +1,7 @@
 import React from "react";
 import LoginForm from "./LoginForm";
 import LoginMsg from "./LoginMsg";
-import Cards from './components/card'
+import Cards from "./components/card";
 const Login = () => {
 	const [show, setShow] = React.useState(true);
 	const [status, setStatus] = React.useState("");

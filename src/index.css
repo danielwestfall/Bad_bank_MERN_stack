@@ -1,18 +1,18 @@
 .spacer {
-  padding: 0.5em;
+	padding: 0.5em;
 }
 
 .card {
-  padding: 0.5em;
-  margin: 0.5em;
+	padding: 0.5em;
+	margin: 0.5em;
 }
 
 h3 {
-  padding: 0.5em;
-  margin: 0.5em;
+	padding: 0.5em;
+	margin: 0.5em;
 }
 
-.carousel_image{
-  width: 600px;
-  height: 400px;
+.carousel_image {
+	width: 600px;
+	height: 400px;
 }
