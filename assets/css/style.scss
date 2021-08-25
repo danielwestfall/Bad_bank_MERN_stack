@@ -1,0 +1,64 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+body {
+	background-color: #e0e1DD;
+}
+
+.wrapper {
+	background-color: #0D1B2A;
+}
+
+header {
+	background: linear-gradient(#1B263B, #0D1B2A);
+	background: #0D1B2A;
+}
+
+header h1 {
+	color: #e0e1DD;
+	font-size: 2em;
+}
+
+header p {
+	color: #778DA9;
+}
+
+.project-name {
+	font-size: 2em;
+	color: #778DA9;
+}
+
+h2 {
+	font-size: 1.5em;
+	color: #e0e1DD;
+}
+
+blockquote {
+	font-variant: normal;
+	text-decoration: none;
+	font-style: normal;
+	color: #778DA9;
+	font-weight: bold;
+	font-size: 1.5em;
+	background-color: #1B263B;
+}
+
+h1 {
+	color: #e0e1DD;
+	font-size: 2em;
+}
+
+p {
+	color: #778DA9;
+}
+
+a {
+	color: #e0e1DD;
+}
+
+header ul{
+        visibility: hidden;
+}
+	
